@@ -45,41 +45,41 @@ export class FoodService {
         favorite: false,
         origins: ['italy'],
         star: 4.5,
-        imageUrl: './assets/food1.jpg',
+        imageUrl: './assets/pepperoni-pizza.jpg',
         tags: ['FastFood', 'Pizza','Lunch']
       },
       {
         id:2,
-        name:'Vegetables PizzaPizza Pepperoni',
+        name:'Cheese Pizza',
         cookTime: '10-20',
         price: 10,
         favorite: false,
         origins: ['italy'],
        star: 4.5,
-        imageUrl: './assets/food2.jpg',
-        tags: ['FastFood', 'Pizza','Lunch']
+        imageUrl: './assets/pizza-cheese.png',
+        tags: ['SlowFood', 'Pizza','Lunch']
       },
       {
         id:3,
-        name:'Pizza Pepperoni',
+        name:'MeatBall',
         cookTime: '10-20',
         price: 10,
         favorite: false,
         origins: ['italy'],
        star: 4.5,
-        imageUrl: './assets/food3.jpg',
-        tags: ['FastFood', 'Pizza','Lunch']
+        imageUrl: './assets/meatball.jpg',
+        tags: ['Soup', 'FastFood','Lunch']
       },
       {
         id:4,
-        name:'Pizza Pepperoni',
+        name:'SeaMomo',
         cookTime: '10-20',
         price: 10,
         favorite: false,
         origins: ['italy'],
        star: 4.5,
-        imageUrl: './assets/food4.jpg',
-        tags: ['FastFood', 'Pizza','Lunch']
+        imageUrl: './assets/seamomo.jpg',
+        tags: ['FastFood', 'Soup','Lunch']
       },
       {
         id:5,
@@ -89,7 +89,7 @@ export class FoodService {
         favorite: false,
         origins: ['italy'],
        star: 4.5,
-        imageUrl: './assets/food5.jpg',
+        imageUrl: './assets/pepperoni.jpg',
         tags: ['FastFood', 'Pizza','Lunch']
       },
       {
@@ -100,7 +100,7 @@ export class FoodService {
         favorite: false,
         origins: ['italy'],
        star: 4.5,
-        imageUrl: './assets/food6.jpg',
+        imageUrl: './assets/meatball1.jpg',
         tags: ['FastFood', 'Pizza','Lunch']
       },
       {
@@ -111,7 +111,7 @@ export class FoodService {
         favorite: false,
         origins: ['italy'],
        star: 4.5,
-        imageUrl: './assets/food7.jpg',
+        imageUrl: './assets/burger2.jpg',
         tags: ['FastFood', 'Pizza','Lunch']
       },
       {
@@ -122,8 +122,30 @@ export class FoodService {
         favorite: false,
         origins: ['italy'],
        star: 4.5,
-        imageUrl: './assets/food1.jpg',
-        tags: ['FastFood', 'Pizza','Lunch']
+        imageUrl: './assets/fried-potato.jpg',
+        tags: ['Fry', 'SlowFood','Lunch']
+      },
+      {
+        id:9,
+        name:'MOMO',
+        cookTime: '10-20',
+        price: 10,
+        favorite: false,
+        origins: ['italy'],
+       star: 4.5,
+        imageUrl: './assets/sea-momo.jpg',
+        tags: ['Soup', 'SlowFood','Lunch']
+      },
+      {
+        id:10,
+        name:'Meatball',
+        cookTime: '10-20',
+        price: 10,
+        favorite: false,
+        origins: ['italy'],
+       star: 4.5,
+        imageUrl: './assets/meatball.jpg',
+        tags: ['Lunch', 'SlowFood','Fry']
       },
     ]
   }
