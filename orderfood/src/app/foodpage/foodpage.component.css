@@ -1,3 +1,7 @@
+.row{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
 .container{
     display: flex;
     align-items: center;
@@ -26,6 +30,7 @@ img{
     padding: 2rem;
     color: black;
     margin-left: 1rem;
+    margin-top: 4rem;
 }
 .details .header{
     display: flex;
